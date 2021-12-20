@@ -1,0 +1,22 @@
+/* Add all your styles here */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+section{
+  position:relative;
+  display:flex;
+  width:100%;
+  justify-content:center;
+  align-items:center;
+  min-height:100vh;
+}
+section header{
+  position:absolute;
+  top:0;
+  width:100%;
+  display:flex;
+  justify-content:flex-end;
+  padding:20px;
+}
